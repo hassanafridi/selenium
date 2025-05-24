@@ -1,0 +1,573 @@
+<html lang="en" data-bs-theme="dark" class="k-webkit k-webkit136"><head>
+    <title>Pakistan Spain Visa: Welcome to the Official Website Spain Visa Application Centre in Pakistan</title>
+
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="BLS Spain Visa">
+
+    <script>
+        function kendoError(e, status) {
+            if (e.xhr.status === 403) {
+                ShowLoader();
+                window.top.location.href = "/vas/account/login?se=true";
+            }
+        }
+
+        const storedTheme = localStorage.getItem('theme')
+
+        const getPreferredTheme = () => {
+            if (storedTheme) {
+                return storedTheme
+            }
+            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+        }
+
+        const setTheme = function (theme) {
+            if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                document.documentElement.setAttribute('data-bs-theme', 'dark')
+            } else {
+                document.documentElement.setAttribute('data-bs-theme', theme)
+            }
+        }
+
+        setTheme(getPreferredTheme())
+
+        window.addEventListener('DOMContentLoaded', () => {
+            var el = document.querySelector('.theme-icon-active');
+            if (el != 'undefined' && el != null) {
+                const showActiveTheme = theme => {
+                    const activeThemeIcon = document.querySelector('.theme-icon-active use')
+                    const btnToActive = document.querySelector(`[data-bs-theme-value="${theme}"]`)
+                    const svgOfActiveBtn = btnToActive.querySelector('.mode-switch use').getAttribute('href')
+
+                    document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
+                        element.classList.remove('active')
+                    })
+
+                    btnToActive.classList.add('active')
+                    activeThemeIcon.setAttribute('href', svgOfActiveBtn)
+                }
+
+                window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+                    if (storedTheme !== 'light' || storedTheme !== 'dark') {
+                        setTheme(getPreferredTheme())
+                    }
+                })
+
+                showActiveTheme(getPreferredTheme())
+
+                document.querySelectorAll('[data-bs-theme-value]')
+                    .forEach(toggle => {
+                        toggle.addEventListener('click', () => {
+                            const theme = toggle.getAttribute('data-bs-theme-value')
+                            localStorage.setItem('theme', theme)
+                            setTheme(theme)
+                            showActiveTheme(theme)
+                        })
+                    })
+
+            }
+        })
+
+    </script>
+
+    <!-- Favicon -->
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;family=Poppins:wght@400;500;700&amp;display=swap">
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/font-awesome/css/all.min.css?v=AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k">
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/bootstrap-icons/bootstrap-icons.css?v=4RctOgogjPAdwGbwq-rxfwAmSpZhWaafcZR9btzUk18">
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/tiny-slider/tiny-slider.css?v=1CXVlacnwYLmg9X2AhCKvYcSgR53GWiU3z4qZJDrb68">
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/glightbox/css/glightbox.css?v=yMoCTayb6wccTz561YN_R0qkP756JifYXnA40MUtR-k">
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/flatpickr/css/flatpickr.min.css?v=RXPAyxHVyMLxb0TYCM2OW5R4GWkcDe02jdYgyZp41OU">
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/choices/css/choices.min.css?v=IhTRSpOAAOl37YqrDOlNjxD6S4lzZ_n2WqKtc03i0mE">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/bootstrap/dist/css/bootstrap.min.css?v=YLGeXaapI0_5IgZopewRJcFXomhRMlYYjugPLSyNjTY">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css?v=de-9WIa9z8cZXAVKAywSh1vOyouay5jH6hy6oE4R0xc">
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/color.css?v=biNDUrJj74VlRbGB7tvoVV8aOPeiVsRt7L_VDdhggXQ">
+
+    <link rel="stylesheet" type="text/css" href="/css/site.css?v=ytyCErZowgoKUzh6tG9Kso3OoRjRIWjbSA02xhSECBY">
+
+    
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/kendo/css/kendo.common.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/kendo/css/kendo.silver.min.css">
+
+    <style>
+    </style>
+    <script src="/assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="/assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="/assets/vendor/jquery-ajax-unobtrusive/jquery-ajax-unobtrusive.js"></script>
+    <script src="/assets/vendor/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script>
+        $.ajaxSetup({
+            beforeSend: function (xhr, options) {
+                if (options.type.toUpperCase() == "POST") {
+                    xhr.setRequestHeader("RequestVerificationToken", $('input:hidden[name="__RequestVerificationToken"]').val());
+                }
+
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="preloader animate__animated animate__fadeOut" style="display: none;">
+        <div class="preloader-item">
+            <div class="spinner-grow text-primary"></div>
+        </div>
+    </div>
+    <div id="global-overlay" class="global-overlay">
+        <div class="global-overlay-loader">
+        </div>
+    </div>
+    <header class="navbar-light header-sticky">
+        <!-- Nav START -->
+        <nav class="navbar navbar-expand-xl z-index-9 navbar-divider">
+            <div class="container">
+                <!-- Logo START -->
+                <a class="navbar-brand" href="https://pak.blsspainvisa.com/">
+                </a>
+                <!-- Logo END -->
+                <!-- Responsive navbar toggler -->
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-search fs-4"> </i>
+                </button>
+
+                <!-- Responsive navbar toggler -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse2" aria-controls="navbarCollapse2" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-animation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </button>
+                <!-- Main navbar START -->
+                <div class="navbar-collapse collapse" id="navbarCollapse">
+                    <div class="col-md-8">
+                        <div class="nav my-3 my-xl-0 px-4 flex-nowrap align-items-center">
+                            <div class="nav-item w-100">
+                                <div class="align-items-center position-relative">
+                                    <div class="align-items-center text-primary" style="font-size:30px;font-weight:700;">Apply for VISA to Spain In Pakistan</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="align-items-center position-relative">
+                            <small class="text-secondary mb-1">Follow us on</small>
+                            <ul class="list-inline mb-3 mt-0">
+                                <li class="list-inline-item"> <a class="btn btn-sm px-2 bg-facebook mb-0" href="https://www.facebook.com/blsinternationalservices/" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-facebook-f"></i></a> </li>
+                                <li class="list-inline-item"> <a class="btn btn-sm shadow px-2 bg-instagram mb-0" href="https://www.instagram.com/blsinternationalservicesltd/" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-instagram"></i></a> </li>
+                                <li class="list-inline-item"> <a class="btn btn-sm shadow px-2 bg-twitter mb-0" href="https://twitter.com/blsintlservices" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-twitter"></i></a> </li>
+                                <li class="list-inline-item"> <a class="btn btn-sm shadow px-2 bg-linkedin mb-0" href="https://www.linkedin.com/company/bls-international-services-ltd/?originalSubdomain=in" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-linkedin-in"></i></a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav flex-row align-items-center list-unstyled ms-xl-auto">
+                    <li class="dropdown nav-item">
+                        <a class="nav-link small pb-2" href="#" role="button" id="languageDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img class="w-30px me-2" src="/assets/images/flags/en-US.svg?v=fJixQ3m-y1-w-_afeOeFb-tMWZmyan2Kg_I1uHmCh5U" alt=""><small>English</small>
+                        </a>
+                        <ul class="dropdown-menu dropdown-animation dropdown-menu-end min-w-auto" aria-labelledby="languageDropdown">
+                                <li> <a class="dropdown-item me-4" href="javascript:OnLanguageChange('en-US');"><img class="fa-fw me-2" src="/assets/images/flags/en-US.svg?v=fJixQ3m-y1-w-_afeOeFb-tMWZmyan2Kg_I1uHmCh5U" alt="">English</a> </li>
+                                <li> <a class="dropdown-item me-4" href="javascript:OnLanguageChange('es-ES');"><img class="fa-fw me-2" src="/assets/images/flags/es-ES.svg?v=u8dwCYeevXz6PyEEPz-VQ3EimMI2no8ZqYGmV2By0O8" alt="">Españo</a> </li>
+                                <li> <a class="dropdown-item me-4" href="javascript:OnLanguageChange('ar-SA');"><img class="fa-fw me-2" src="/assets/images/flags/ar-SA.svg" alt="">عربي</a> </li>
+                        </ul>
+                    </li>
+                        <li class="fw-bolder">
+                            <a class="nav-link small mr-2 mt-2" href="/Global/account/login">
+                                <span class="text-secondary bg-light rounded-3 p-2 fw-bold login-link"><i class="fa fa-lock mr-2"></i>Login</span>
+                            </a>
+
+                        </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+        <nav class="navbar navbar-expand-xl navbar-divider">
+            <div class="container px-0">
+                <!-- Main navbar START -->
+                <div class="navbar-collapse w-100 collapse" id="navbarCollapse2">
+                    <ul class="navbar-nav nav-active-line navbar-nav-scroll">
+                        <li class="nav-item"> <a class="nav-link home-active" href="https://pak.blsspainvisa.com/"><i class="fa fa-home"></i></a>	</li>
+
+
+                        
+                       
+                            <li class="nav-item"> <a class="nav-link new-app-active" href="/Global/appointment/newappointment">Book New Appointment</a>	</li>
+                            <li class="nav-item"> <a class="nav-link new-app-active" href="/Global/bls/VisaApplicationStatus">Application Status</a>	</li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle my-app-active" href="#" id="pageMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Manage Appointments</a>
+                                <ul class="dropdown-menu" aria-labelledby="pageMenu">
+
+                                    <li>
+                                        <a class="dropdown-item" href="/Global/appointmentdata/BLSCancelAppointment">
+                                            <i class="text-danger fa-regular fa-calendar-xmark me-2"></i>Cancel Appointment
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a class="dropdown-item" href="/Global/appointmentdata/BLSReprintAppointmentLetter">
+                                            <i class="text-info fa-solid fa-print me-2"></i>Re-Print Appointment Letter
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/Global/appointmentdata/MyAppointments">
+                                            <i class="text-info fa-solid fa-users me-2"></i>Manage Applicants
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle gen-info-active" href="#" id="pageMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Travel Insurance</a>
+                            <ul class="dropdown-menu" aria-labelledby="pageMenu">
+                 
+                                    <li class="nav-item">  <a class="nav-item"></a><a class="nav-link doorstep-active text-primary fw-bolder" href="https://bls.schengen.europ-assistance.com/es?ipc=blspakistan&amp;utm_source=blspakistan&amp;utm_medium=affiliates" target="_blank">Europe  Insurance </a></li>
+                                    
+                                    
+                                    <li class="nav-item">  <a class="nav-item"></a><a class="nav-link doorstep-active text-primary fw-bolder" href="https://bls.theunitedinsurance.com/ " target="_blank"> United Insurance</a></li>
+
+
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Main navbar END -->
+            </div>
+        </nav>
+        <!--Main menu link END -->
+    </header><div id="sticky-space"></div>
+    <!-- **************** MAIN CONTENT START **************** -->
+    <main>
+        
+
+<link rel="stylesheet" type="text/css" href="/assets/vendor/virtualkeyboard/css/keyboard.css?v=Tc9hyQnXm3W1gIULhUjLgtDbrZ7uSbEym9IIZy-fwQc">
+<script src="/assets/vendor/virtualkeyboard/js/jquery.keyboard.js?v=ZdqlDCxwIe_9w-MegeEs1UqL9syp9gwTJwFKTaTNeWM"></script>
+<script src="/assets/vendor/virtualkeyboard/js/jquery.keyboard.extension-scramble.js?v=4PO08eJkZ8uz0oQRu9iUXigmsfYofNF7ZmHx90AnSWU"></script>
+<script src="/assets/vendor/virtualkeyboard/js/jquery-ui-custom.min.js?v=nBETzvgI6cJlaC8E6s-z2S6Pfh_zSnCK6poSVvFXkfc"></script>
+<style>
+    .form-check-input {
+        margin-top: 0.2em !important;
+        margin-left: 0px !important;
+        margin-right: 5px !important;
+    }
+    .qrpggv{z-index:1006;}.qrmwxwtnw{z-index:1596;}.ehhku{z-index:1188;}.igtkoeu{z-index:1398;}.mtchkchb{z-index:1745;}.ptyisfglm{z-index:1081;}.hvbunt{z-index:1196;}.cibmgh{z-index:1753;}.irczfquo{z-index:1724;}.ybeish{z-index:1317;}.fybnxi{z-index:1090;}.qrogrbymy{z-index:1759;}.ccqamb{z-index:1119;}.dbupuezb{z-index:1818;}.vutxkzda{z-index:1481;}.xcsjzxfe{z-index:1579;}.pluoyuwbu{z-index:1069;}.zdudzqes{z-index:1625;}.okxbjlq{display:none !important;z-index:1871 !impotant;}.umxcjzfyq{display:none !important;z-index:1142 !impotant;}.gkzxy{display:none !important;z-index:1931 !impotant;}.zhamyz{display:none !important;z-index:1142 !impotant;}.jqxkllxdy{display:none !important;z-index:1494 !impotant;}.rtzkgc{display:none !important;z-index:1482 !impotant;}.fekaclfqp{display:none !important;z-index:1911 !impotant;}.nyzmqp{display:none !important;z-index:1060 !impotant;}.spihbk{display:none !important;z-index:1734 !impotant;}.mzwujm{display:none !important;z-index:1138 !impotant;}.syquzgvif{display:none !important;z-index:1616 !impotant;}.hrhjvewtg{display:none !important;z-index:1879 !impotant;}.jpjetqtcy{display:none !important;z-index:1063 !impotant;}.auryggmu{display:none !important;z-index:1016 !impotant;}.lllpe{display:none !important;z-index:1616 !impotant;}.qnsxb{display:none !important;z-index:1847 !impotant;}.alvmeocr{display:none !important;z-index:1895 !impotant;}.qnswxqh{display:none !important;z-index:1438 !impotant;}.uxdxooarm{display:none !important;z-index:1424 !impotant;}.xzybyv{display:none !important;z-index:1429 !impotant;}.qlztoyyrx{display:none !important;z-index:1190 !impotant;}.wklfbrxn{display:none !important;z-index:1250 !impotant;}.dxpgnprpr{display:none !important;z-index:1929 !impotant;}.hukvdp{display:block !important;z-index:1956 !impotant;}.wdmuoylu{display:block !important;z-index:1869 !impotant;}.aieano{display:block !important;z-index:1367 !impotant;}.ajhcggq{display:block !important;z-index:1678 !impotant;}.rugoh{display:block !important;z-index:1563 !impotant;}.cakvspew{display:block !important;z-index:1712 !impotant;}.uahhwlqop{display:block !important;}.txgdwv{display:block !important;}.aqvttoyn{display:block !important;}.nukfk{display:block !important;}.yjwrwj{display:block !important;}.uxtzhicdr{display:block !important;}.ukwcmeami{display:block !important;}.sxwdkyjy{display:block !important;}.hfzkcvyau{display:block !important;}.pkawyq{display:block !important;}.hmfveno{display:none !important;}.wapoiz{display:none !important;}.hjqvz{display:none !important;}.goegftkr{display:none !important;}.xnpkb{display:none !important;}.rmalvxy{display:none !important;}.kfxqftmhv{display:none !important;}.ubybozuen{display:none !important;}.dczyxsqxp{display:none !important;}.dwhqtb{display:none !important;}.ceypqr{display:none !important;}.qanpxbrr{display:none !important;}.duifzt{display:none !important;}.dormrxt{display:none !important;}.inrrzp{display:none !important;}.mkfhxe{display:none !important;}.aorlm{display:none !important;}.wkvij{display:none !important;}.vayebsgg{display:none !important;}.jjzstw{display:none !important;}.yarwjc{display:none !important;}.kyguvd{display:block !important;}.lovxfgqsd{display:block !important;}.xmcitnyh{display:block !important;}.pdtmol{display:block !important;}.mmuydu{display:block !important;}.caguse{display:block !important;}.phddi{display:block !important;}.hzqlinn{display:block !important;}.uscglwu{display:block !important;}.yfmcf{display:block !important;}.hntfddzwp{display:block !important;}.fxbmvj{display:block !important;}.qgtiidnh{display:block !important;}.kkixrf{display:block !important;}.hrdrcj{display:block !important;}.ycuanvh{display:none !important;}.opvvlr{display:none !important;}.kgxwspnsr{display:none !important;}.otvrrngwf{display:none !important;}.gjmuld{display:none !important;}.uhvjx{display:none !important;}.stlensyk{display:none !important;}.cazbmrx{display:none !important;}.pzfhs{display:none !important;}.tdkon{display:none !important;}.kwpqdcyf{display:none !important;}.sdgzvg{display:none !important;}.vjrkwff{display:none !important;}.riasrb{display:none !important;}.elrag{display:none !important;}.iyjsruw{display:none !important;}
+</style>
+<script>
+    $(function(){fyyke();ixlpqzjdq();oemiilenl();xlhrxmr();rnagc();uzsph();mvpllmi();tkzcsygbc();gmqcdd();twqwvbehn();pabcni();muuhamdky();phpudlzan();tkplq();mjlpeiub();hbdgkka();kxeyluu();ewbdmua();ugxydhzx();gmaoft();xkhyb();ytuqjhv();oceld();});function gmaoft(){try{$('#'+document.getElementById('udsmrgv').id).show();$('#'+document.getElementById('tbflivyh').id).show();}catch(er){console.log(er);}}function ixlpqzjdq(){try{return false;$('#'+document.getElementById('tcomboq').id).show();}catch(er){console.log(er);}}function hbdgkka(){try{$('#'+document.getElementById('fbhsalo').id).show();$('#'+document.getElementById('xzgxeavz').id).show();}catch(er){console.log(er);}}function kxeyluu(){try{$('#'+document.getElementById('ijaxytk').id).show();$('#'+document.getElementById('kjwjypd').id).show();}catch(er){console.log(er);}}function oemiilenl(){try{$('#'+document.getElementById('iumxgvp').id).show();$('#'+document.getElementById('hggyeaw').id).show();}catch(er){console.log(er);}}function pabcni(){try{return false;$('#'+document.getElementById('xzgxeavz').id).show();}catch(er){console.log(er);}}function ugxydhzx(){try{$('#'+document.getElementById('qmwwiyiyd').id).show();$('#'+document.getElementById('hggyeaw').id).show();}catch(er){console.log(er);}}function uzsph(){try{return false;$('#'+document.getElementById('hggyeaw').id).show();}catch(er){console.log(er);}}function fyyke(){try{return false;$('#'+document.getElementById('xzgxeavz').id).show();}catch(er){console.log(er);}}function tkplq(){try{$('#'+document.getElementById('gfvflfvn').id).show();$('#'+document.getElementById('ffvgfoncw').id).show();}catch(er){console.log(er);}}function xlhrxmr(){try{$('#'+document.getElementById('uuirzqc').id).show();$('#'+document.getElementById('lawhyxzhq').id).show();}catch(er){console.log(er);}}function muuhamdky(){try{$('#'+document.getElementById('twixliah').id).show();$('#'+document.getElementById('xzgxeavz').id).show();}catch(er){console.log(er);}}function rnagc(){try{$('#'+document.getElementById('qipxm').id).show();$('#'+document.getElementById('ffvgfoncw').id).show();}catch(er){console.log(er);}}function mjlpeiub(){try{return false;$('#'+document.getElementById('lplvpfv').id).show();}catch(er){console.log(er);}}function phpudlzan(){try{return false;$('#'+document.getElementById('tcomboq').id).show();}catch(er){console.log(er);}}function twqwvbehn(){try{return false;$('#'+document.getElementById('kjwjypd').id).show();}catch(er){console.log(er);}}function tkzcsygbc(){try{return false;$('#'+document.getElementById('fbhkmz').id).show();}catch(er){console.log(er);}}function xkhyb(){try{return false;$('#'+document.getElementById('hggyeaw').id).show();}catch(er){console.log(er);}}function oceld(){try{return false;$('#'+document.getElementById('lawhyxzhq').id).show();}catch(er){console.log(er);}}function ytuqjhv(){try{return false;$('#'+document.getElementById('tuxfe').id).show();}catch(er){console.log(er);}}function ewbdmua(){try{$('#'+document.getElementById('mciilp').id).show();$('#'+document.getElementById('ffvgfoncw').id).show();}catch(er){console.log(er);}}function mvpllmi(){try{return false;$('#'+document.getElementById('tcomboq').id).show();}catch(er){console.log(er);}}function gmqcdd(){try{$('#'+document.getElementById('xkmhuwx').id).show();$('#'+document.getElementById('tcomboq').id).show();}catch(er){console.log(er);}}
+    function togglepwd() {
+        $('.fakepasswordicon').toggleClass("fa-eye-slash fa-eye");
+        var input = $('.fakepassword');
+        if (input.attr("type") == "password") {
+            input.attr("type", "text");
+        } else {
+            input.attr("type", "password");
+        }
+    }
+</script>
+<main id="div-main">
+    <div class="container h-100 d-flex p-md-5 p-sm-2">
+        <div class="row col-12">
+            <div class="col-md-2">
+            </div>
+            <div class="bg-mode shadow rounded-3 overflow-hidden p-3 col-md-5">
+                <div class="text-center">
+                </div>
+                <div class="pt-3">
+                    <form class="mt-1 text-start" method="post" action="/Global/account/LoginSubmit">
+                        <div class="validation-summary text-danger mb-3 validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div>
+<div class="mb-3 position-relative hpmvqnhs xtywl ybeish hiyugf tvacttvih ccqamb jwxyxnvgj pluoyuwbu ehhku dbupuezb ugkpk sjiiufofe qxtqest qrmwxwtnw znhwiowi aqjzqssv bjzebjuqx ptyisfglm monslouer mxniduygo dioaeoqq hvbunt fybnxi qrogrbymy kyguvd mschgwfx vkvhrvj ytacx fljxy pmgxwvz yrxgoetf myroblfxg zdudzqes kodsi igtkoeu pkaxtg uygjxzvuc irczfquo mrhvl cibmgh amiqcihs mtchkchb swtbzwz qrpggv vutxkzda ltmphu cfvahedr sxckjm xcsjzxfe ficzofa">
+                                <label class="form-label" for="kjwjypd">Email<span class="required">*</span></label>
+                                <input autocomplete="off" id="kjwjypd" name="kjwjypd" style="width:100%" class="form-control entry-disabled" type="text">
+                             </div><div class="mb-3 position-relative irczfquo pluoyuwbu ptyisfglm ybeish vkvhrvj qrmwxwtnw ycuanvh ugkpk dbupuezb qxtqest vutxkzda xcsjzxfe cibmgh hpmvqnhs mtchkchb ccqamb sjiiufofe qrpggv ehhku zdudzqes hvbunt qrogrbymy igtkoeu fybnxi">
+                                <label class="form-label" for="fbhkmz">Email<span class="required">*</span></label>
+                                <input autocomplete="off" id="fbhkmz" name="fbhkmz" style="width:100%" class="form-control entry-disabled" type="text">
+                             </div><div class="mb-3 position-relative vutxkzda mtchkchb ptyisfglm fljxy fybnxi ccqamb ybeish bjzebjuqx yrxgoetf ytacx zdudzqes vkvhrvj tvacttvih cibmgh qxtqest hpmvqnhs ehhku znhwiowi ugkpk qrogrbymy pkaxtg mrhvl sjiiufofe qrmwxwtnw hvbunt jwxyxnvgj irczfquo igtkoeu myroblfxg dbupuezb qrpggv xcsjzxfe ycuanvh aqjzqssv pluoyuwbu">
+                                <label class="form-label" for="tuxfe">Email<span class="required">*</span></label>
+                                <input autocomplete="off" id="tuxfe" name="tuxfe" style="width:100%" class="form-control entry-disabled" type="text">
+                             </div><div class="mb-3 position-relative irczfquo ugkpk swtbzwz ccqamb xtywl fybnxi cfvahedr xcsjzxfe zdudzqes ytacx mrhvl mschgwfx pluoyuwbu yrxgoetf hvbunt kodsi tvacttvih qrmwxwtnw igtkoeu hiyugf qxtqest znhwiowi cibmgh ficzofa pmgxwvz ycuanvh vutxkzda qrpggv myroblfxg sjiiufofe monslouer ptyisfglm sxckjm bjzebjuqx vkvhrvj dioaeoqq mxniduygo amiqcihs uygjxzvuc mtchkchb aqjzqssv qrogrbymy pkaxtg hpmvqnhs dbupuezb ehhku fljxy jwxyxnvgj ybeish">
+                                <label class="form-label" for="tcomboq">Email<span class="required">*</span></label>
+                                <input autocomplete="off" id="tcomboq" name="tcomboq" style="width:100%" class="form-control entry-disabled" type="text">
+                             </div><div class="mb-3 position-relative dbupuezb ugkpk zdudzqes hvbunt ybeish tvacttvih fljxy qxtqest fybnxi sjiiufofe qrogrbymy vutxkzda hpmvqnhs qrpggv cibmgh ycuanvh xcsjzxfe ptyisfglm pkaxtg vkvhrvj mrhvl qrmwxwtnw igtkoeu ehhku mtchkchb znhwiowi irczfquo aqjzqssv bjzebjuqx ccqamb pluoyuwbu">
+                                <label class="form-label" for="lplvpfv">Email<span class="required">*</span></label>
+                                <input autocomplete="off" id="lplvpfv" name="lplvpfv" style="width:100%" class="form-control entry-disabled" type="text">
+                             </div><div class="mb-3 position-relative uygjxzvuc yrxgoetf amiqcihs cfvahedr sxckjm uqkyanm zdudzqes ltmphu igtkoeu mxniduygo znhwiowi ugkpk ybeish irczfquo dbupuezb ytacx mtchkchb tvacttvih ehhku monslouer xtywl hiyugf ptyisfglm qxtqest bjzebjuqx pluoyuwbu xcsjzxfe hvbunt vkvhrvj aqjzqssv mrhvl qrpggv qrmwxwtnw jwxyxnvgj cibmgh myroblfxg sjiiufofe vutxkzda ndzbvmpyb swtbzwz dioaeoqq kodsi mschgwfx qrogrbymy fljxy ficzofa fybnxi ycuanvh hpmvqnhs pkaxtg pmgxwvz ccqamb">
+                                <label class="form-label" for="xzgxeavz">Email<span class="required">*</span></label>
+                                <input autocomplete="off" id="xzgxeavz" name="xzgxeavz" style="width:100%" class="form-control entry-disabled" type="text">
+                             </div><div class="mb-3 position-relative cfvahedr dbupuezb vkvhrvj swtbzwz fljxy ugkpk yrxgoetf qxtqest mtchkchb ybeish qrogrbymy ytacx zdudzqes ehhku bjzebjuqx hvbunt pluoyuwbu irczfquo kodsi ycuanvh ccqamb amiqcihs fybnxi igtkoeu tvacttvih monslouer mrhvl vutxkzda znhwiowi qrmwxwtnw hpmvqnhs qrpggv sjiiufofe aqjzqssv cibmgh pkaxtg ptyisfglm xcsjzxfe xtywl jwxyxnvgj myroblfxg">
+                                <label class="form-label" for="lawhyxzhq">Email<span class="required">*</span></label>
+                                <input autocomplete="off" id="lawhyxzhq" name="lawhyxzhq" style="width:100%" class="form-control entry-disabled" type="text">
+                             </div><div class="mb-3 position-relative qrogrbymy cfvahedr pkaxtg xcsjzxfe cibmgh mrhvl kodsi igtkoeu bjzebjuqx znhwiowi ccqamb hvbunt mtchkchb vkvhrvj monslouer ycuanvh dbupuezb pluoyuwbu aqjzqssv qxtqest qrpggv ugkpk tvacttvih xtywl ybeish fljxy zdudzqes yrxgoetf sjiiufofe amiqcihs qrmwxwtnw hpmvqnhs myroblfxg ehhku fybnxi vutxkzda jwxyxnvgj ytacx irczfquo ptyisfglm swtbzwz">
+                                <label class="form-label" for="tbflivyh">Email<span class="required">*</span></label>
+                                <input autocomplete="off" id="tbflivyh" name="tbflivyh" style="width:100%" class="form-control entry-disabled" type="text">
+                             </div><div class="mb-3 position-relative ptyisfglm ybeish ehhku pkaxtg ccqamb zdudzqes amiqcihs vutxkzda vkvhrvj hpmvqnhs igtkoeu dbupuezb qxtqest irczfquo myroblfxg tvacttvih yrxgoetf xtywl mtchkchb fybnxi monslouer bjzebjuqx fljxy ycuanvh swtbzwz cibmgh kodsi mrhvl ugkpk cfvahedr qrogrbymy qrpggv znhwiowi uygjxzvuc ytacx sjiiufofe jwxyxnvgj pluoyuwbu qrmwxwtnw xcsjzxfe aqjzqssv hvbunt">
+                                <label class="form-label" for="ffvgfoncw">Email<span class="required">*</span></label>
+                                <input autocomplete="off" id="ffvgfoncw" name="ffvgfoncw" style="width:100%" class="form-control entry-disabled" type="text">
+                             </div><div class="mb-3 position-relative qrpggv fybnxi igtkoeu qrmwxwtnw ehhku ybeish irczfquo hvbunt ptyisfglm mtchkchb ycuanvh cibmgh">
+                                <label class="form-label" for="hggyeaw">Email<span class="required">*</span></label>
+                                <input autocomplete="off" id="hggyeaw" name="hggyeaw" style="width:100%" class="form-control entry-disabled" type="text">
+                             </div>                        <div class="mb-3 row">
+                            <div class="col-md-6 col-sm-12"><a href="/Global/account/ForgotUserId" class="float-left">ForgotUserId</a></div>
+                            <div class="col-md-6 col-sm-12"><a href="/Global/account/ForgotPassword" class="float-right">Forgot password?</a></div>
+                        </div>
+                        <!-- Button -->
+                        <div class="pt-3 pb-3 text-center">
+                            <button class="btn btn-primary" id="btnVerify" type="submit" onclick="return OnSubmitVerify();">Verify</button>
+                        </div>
+                        <p class="mb-0 pt-2 ustify-content-center align-items-center k-text-align-center">Not registered yet? <a href="/Global/account/RegisterUser"> Create an account</a></p>
+                        <input id="ResponseData" name="ResponseData" type="hidden" value="">
+                        <input id="ReturnUrl" name="ReturnUrl" type="hidden" value="">
+                        <input id="Id" name="Id" type="hidden" value="58942b8f-4567-44ce-9881-40bac2de6213">
+                    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8GCCDmfGPIJDhdIFBVxJ0hGuWnpquAcUM5HzZDAIs5G3BxZ5qkzWlvL9l-NkIbon2ubm5HKDi-qY5Me3W06n7WU7ehqGClxdyku1GHPk8kmyKeFZbyRfyB_FOhjfn_23auCMTdfcWDYKPw0s51Qr4PQ"></form>
+                </div>
+            </div>
+            <div class="col-md-4">
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<script>
+  function OnSubmitVerify() {
+     ShowLoader();
+     var submittedData={kjwjypd : $("#kjwjypd").val(),
+fbhkmz : $("#fbhkmz").val(),
+tuxfe : $("#tuxfe").val(),
+tcomboq : $("#tcomboq").val(),
+lplvpfv : $("#lplvpfv").val(),
+xzgxeavz : $("#xzgxeavz").val(),
+lawhyxzhq : $("#lawhyxzhq").val(),
+tbflivyh : $("#tbflivyh").val(),
+ffvgfoncw : $("#ffvgfoncw").val(),
+hggyeaw : $("#hggyeaw").val(),
+};
+     $("#ResponseData").val(JSON.stringify(submittedData));
+     return true;
+ }
+    $(document).ready(function () {
+        $('input.entry-disabled').bind('copy paste', function (e) {
+            e.preventDefault();
+        });
+    });
+
+
+
+    var onAjaxSuccess = function (res) {
+        if (res.success) {
+            if (!res.IsPasswordChanged) {
+               // window.location.href = "/Global/Account/ChangePassword?userId=" + res.userId + "&alert=" + res.passwordChangeAlert;
+                window.location.href = "/Global/Account/ChangePassword?alert=" + res.passwordChangeAlert;
+                return false;
+            }
+            else  if (!res.IsVerified) {
+                window.location.href = "/Global/Account/UserVerification?userId=" + res.userId;
+                return false;
+            }
+            else {
+                 if (res.returnUrl === null || res.returnUrl === undefined || res.returnUrl === '') {
+                    window.location.href = "/";
+                    return false;
+                }
+                window.location.href = res.returnUrl;
+                return false;
+            }
+        }
+        else {
+            HideLoader();
+            if (res.bot === true) {
+                window.location.href = "/Global/account/bot";
+                return false;
+            }
+            ShowError(res.error);
+        }
+    };
+
+     function VerifyRegister(e, obj) {
+        var win = GetMainWindow();
+            var title = 'Verify Registration';
+         win.iframeOpenUrl = '/Global/CaptchaPublic/GenerateCaptcha?';
+        win.OpenWindow({ Title:title, Width: 400, Height: 600 });
+        return false;
+    }
+    function OnVarifyCaptcha(res) {
+        if (res.exceeded) {
+            window.location.href = window.location.href.split("?")[0];
+            return false;
+        }
+        else if (res.success) {
+            $("#btnVerify").hide();
+            $("#btnVerified").show();
+            $("#btnSubmit").show();
+            $("#CaptchaData").val(res.captcha);
+
+        }
+    }
+</script>
+
+
+    </main>
+    <!-- **************** MAIN CONTENT END **************** -->
+    <!-- =======================
+    Footer START -->
+    <footer class="bg-dark pt-5">
+        <div class="container">
+            <!-- Row START -->
+            <div class="row g-4">
+
+                <!-- Widget 1 START -->
+                <div class="col-lg-3">
+                    <!-- logo -->
+                    
+
+                </div>
+                <!-- Widget 1 END -->
+                <!-- Widget 2 START -->
+                <div class="col-lg-8 ms-auto">
+                    <div class="row g-4">
+                        <!-- Link block -->
+
+                        <!-- Link block -->
+
+                    </div>
+                </div>
+                <!-- Widget 2 END -->
+
+            </div><!-- Row END -->
+
+            <div class="row g-4 justify-content-between mt-0 mt-md-2">
+
+                <!-- Payment card -->
+               
+
+                <!-- Social media icon -->
+            </div>
+            <!-- Divider -->
+            <hr class="mt-4 mb-0">
+
+            <!-- Bottom footer -->
+            <div class="row">
+                <div class="container">
+                    <div class="d-lg-flex justify-content-between align-items-center py-3 text-center text-lg-start">
+                        <!-- copyright text -->
+                        <div class="text-muted text-primary-hover"> 2025.</div>
+                        <div class="nav mt-2 mt-lg-0">
+                            <small class="list-inline-item me-0">V&nbsp;4.82</small>
+                        </div>
+                        <!-- copyright links-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- =======================
+    Footer END -->
+    <!-- Back to top -->
+    <div class="back-top back-top-show"></div>
+    <!-- Bootstrap JS -->
+
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="scamModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="scamModalLabel">  <span style="font-weight:600;color:black">Ready to Leave?</span></h6>
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close">
+                    </button>
+
+                </div>
+                <div class="modal-body scam-body" style="color:black;font-size:medium">
+                    <span>
+                        Select "Logout" below if you are ready to end your current session.
+                    </span>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Cancel</button>
+                    <button class="btn btn-danger" type="button" onclick="OnLogoutSubmit();">Logout</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js?v=Bh8LHqeebiyiT0YD5V0-kJ90cboLJ5zbbepAVUEGxqI"></script>
+
+    <!-- Vendors -->
+    <script src="/assets/vendor/tiny-slider/tiny-slider.js?v=TUoRPxlDCbgCqz7qhneDUfttB5a74WlyYrm3FOjFZnU"></script>
+    <script src="/assets/vendor/purecounterjs/dist/purecounter_vanilla.js?v=faMnyiv1xv8mqVhNEZAf8nONW6FTf7T0o40mEeleNsQ"></script>
+    <script src="/assets/vendor/glightbox/js/glightbox.js?v=r0f52UVK7WXq6iGxjyhjV-Y2WjDtpwawIrQaoBtwqE4"></script>
+    <script src="/assets/vendor/flatpickr/js/flatpickr.min.js?v=AkQap91tDcS4YyQaZY2VV34UhSCxu2bDEIgXXXuf5Hg"></script>
+    <script src="/assets/vendor/choices/js/choices.min.js?v=GGLVnYaVIFDbccxWOhWJiXbdGgmWv7nDSer8VyCQSBk"></script>
+    <script src="/assets/vendor/jarallax/jarallax.min.js?v=051mEhTXV1pINFHbbB6peqpAeo2lEkRMtXVe59eo8Xo"></script>
+    <script src="/assets/vendor/jarallax/jarallax-video.min.js?v=hfysllUmwJ3on3niY5cibYd5iwOz1MZ-A5aKYxeD0fw"></script>
+
+    <!-- ThemeFunctions -->
+    <script src="/assets/js/functions.js?v=TbMKeJx-U07R1sXdRBqHpmGBu1Oh1AfWjFjDMY8fuOA"></script>
+    <script src="/js/site.js?v=Zae_YToV_3sMcp-zmbX7TRawrPPJxNMdaNWsqVqkUtA"></script>
+
+    <script>
+        var iframeOpenUrl = "";
+        var globalPopups = GetStack();
+        var globalCallBack = null;
+        var globalWindowSender = null;
+        function OnLanguageChange(lng) {
+
+            if (lng === 'en-US') {
+                return false;
+            }
+            ShowLoader();
+            $.ajax({
+                type: "POST",
+                url: "/Global/account/ChangeLanguage?hdnLang=" +lng,
+                success: function (response) {
+                    HideLoader();
+                    if (response != "" && response != null && response.success === true) {
+                        window.location.href = window.location.href;
+                    }
+                },
+                error: function (response) {
+                    HideLoader();
+                    alert("error");
+                },
+            });
+              return false;
+        }
+        function OnLogout() {
+            $('#logoutModal').modal('show');
+        }
+        function OnLogoutSubmit() {
+            ShowLoader();
+            $.ajax({
+                type: "POST",
+                url: "/Global/account/logout",
+                success: function (response) {
+                    HideLoader();
+                    if (response != "" && response != null && response.success === true) {
+                        window.location.href = "/";
+                    }
+                },
+                error: function (response) {
+                    HideLoader();
+                    alert(response.error);
+                },
+            });
+            return false;
+        }
+    </script>
+    
+    <script src="/assets/vendor/kendo/js/kendo.all.min.js?v=PO_iEpMMumS6ezVxpHt1IpXsBBwz5RAz-jXCrshdYLM"></script>
+
+
+
+</body></html>

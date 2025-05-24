@@ -1,0 +1,28 @@
+2025-05-24 15:32:10,149 [INFO] Starting test run
+2025-05-24 15:32:10,151 [INFO] Setting up test
+2025-05-24 15:32:11,278 [INFO] Initialized chrome browser
+2025-05-24 15:32:11,278 [INFO] Running test_invalid_login
+2025-05-24 15:32:11,278 [INFO] Navigating to https://appointment.thespainvisa.com/Global/account/login
+2025-05-24 15:32:55,999 [INFO] Screenshot saved to screenshots/timeout_username_20250524-153240.png
+2025-05-24 15:32:55,999 [ERROR] Element username not found – screenshot saved at screenshots/timeout_username_20250524-153240.png
+2025-05-24 15:32:56,004 [INFO] Tearing down test
+2025-05-24 15:32:58,983 [INFO] Setting up test
+2025-05-24 15:33:00,147 [INFO] Initialized chrome browser
+2025-05-24 15:33:00,147 [INFO] Running test_valid_login
+2025-05-24 15:33:00,147 [INFO] Navigating to https://appointment.thespainvisa.com/Global/account/login
+2025-05-24 15:33:24,392 [INFO] Screenshot saved to screenshots/timeout_username_20250524-153324.png
+2025-05-24 15:33:24,392 [ERROR] Element username not found – screenshot saved at screenshots/timeout_username_20250524-153324.png
+2025-05-24 15:33:24,392 [INFO] Tearing down test
+2025-05-24 16:21:15,499 [INFO] Starting test run
+2025-05-24 16:21:15,499 [INFO] Setting up test
+2025-05-24 16:21:16,665 [INFO] Initialized chrome browser
+2025-05-24 16:21:16,665 [INFO] Running test_invalid_login
+2025-05-24 16:21:16,665 [INFO] Navigating to https://appointment.thespainvisa.com/Global/account/login
+2025-05-24 16:21:40,013 [INFO] Screenshot saved to screenshots/timeout_username_20250524-162139.png
+2025-05-24 16:21:40,025 [ERROR] Element 'username' not found at URL https://appointment.thespainvisa.com/Global/account/login. Saved screenshot \u279c screenshots/timeout_username_20250524-162139.png
+2025-05-24 16:21:40,041 [INFO] Tearing down test
+2025-05-24 16:21:43,921 [INFO] Setting up test
+2025-05-24 16:21:45,053 [INFO] Initialized chrome browser
+2025-05-24 16:21:45,053 [INFO] Running test_valid_login
+2025-05-24 16:21:45,053 [INFO] Navigating to https://appointment.thespainvisa.com/Global/account/login
+2025-05-24 16:21:52,051 [INFO] Tearing down test
